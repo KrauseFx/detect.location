@@ -1,0 +1,3 @@
+DetectLocations is an app that shows your pictures on a map visualized. It's useful to give you a good sense of where you've been, and where you haven't been yet. 
+Additionally it allows you to show pictures that were taken on transport (e.g. car, plane), so it's easier to find them.
+Also, you can show a route of all the places you've taken pictures in.

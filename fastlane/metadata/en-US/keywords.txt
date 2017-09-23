@@ -1,0 +1,1 @@
+detect,locations,pictures,photos

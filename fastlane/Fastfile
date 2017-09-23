@@ -1,0 +1,14 @@
+
+lane :codesigning do
+  match(type: "appstore")
+end
+
+lane :appstore do
+  appicon(
+    appicon_devices: [:iphone],
+    appicon_image_file: "./DetectLocations/Assets.xcassets/AppIcon.appiconset/DetectLocations.png",
+    appicon_path: "./DetectLocations/Assets.xcassets/"
+  )
+  codesigning
+  deliver(force: true)
+end

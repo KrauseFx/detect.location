@@ -1,0 +1,4 @@
+app_identifier "com.krausefx.detect.location" # The bundle identifier of your app
+apple_id "apple@krausefx.com" # Your Apple email address
+
+team_id "N8X438SEU2" # Developer Portal Team ID
