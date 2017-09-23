@@ -1,5 +1,7 @@
 # `detect.location`
 
+<img src="screenshots/DetectLocations.png" align="right" width=80 />
+
 Does your iOS app have access to the image library of the user? Do you want to know all movements your users did over the last years, like what cities they visited, which iPhones they owned and how they travel? Do you want all that within under a second? Then this project is for you!
 
 > Disclaimer: `detect.location` is not actually an SDK, it's a proof of concept to raise awareness of a privacy issue that can be abused by iOS apps. The goal isn't for apps to use this, but to let Apple know that we need better privacy controls for access to image metadata.
