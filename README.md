@@ -4,6 +4,14 @@ Does your iOS app have access to the image library of the user? Do you want to k
 
 > Disclaimer: `detect.location` is not actually an SDK, it's a proof of concept to raise awareness of a privacy issue that can be abused by iOS apps. The goal isn't for apps to use this, but to let Apple know that we need better privacy controls for access to image metadata.
 
+Permission Dialog | Map of locations | Rendering of Route
+----|-----|-----
+![screenshots/screenshot0.jpg](screenshots/screenshot0.jpg) | ![screenshots/screenshot1.jpg](screenshots/screenshot1.jpg) | ![screenshots/screenshot2.jpg](screenshots/screenshot2.jpg)
+
+Find the "fastest" photos | Understand the user | Full access to raw photos
+----|-----|-----
+![screenshots/screenshot3.jpg](screenshots/screenshot3.jpg) | ![screenshots/screenshot4.jpg](screenshots/screenshot4.jpg) | ![screenshots/screenshot5.jpg](screenshots/screenshot5.jpg)
+
 ## What can you do with `detect.location`?
 
 - Get a history of all cities, countries and places a person visited (assuming they took at least one picture)
@@ -41,7 +49,7 @@ Additionally the native image picker should be enforced by Apple, and apps that 
 
 You might think it takes some work to write code that does all of the above. I built the initial prototype within under an hour, and then spend more time on some visualizations to show what you can do with the data.
 
-Check out [DetectLocations/LocationPoint.m] for the complete implementation of accessing all photos, accessing all locations is literally
+Check out [DetectLocations/LocationPoint.m](https://github.com/KrauseFx/detect.location/blob/master/DetectLocations/LocationPoint.m) for the complete implementation of accessing all photos, accessing all locations is literally
 ```objective-c
 PHFetchResult *photos = [PHAsset fetchAssetsWithMediaType:PHAssetMediaTypeImage options:nil];
     
