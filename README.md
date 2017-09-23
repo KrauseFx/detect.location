@@ -45,6 +45,8 @@ There should be a clear separation of
 
 Additionally the native image picker should be enforced by Apple, and apps that use their custom one will be rejected. 
 
+Feel free to dupe [rdar://34610699](https://openradar.appspot.com/34610699) 👍
+
 ## Complexity
 
 You might think it takes some work to write code that does all of the above. I built the initial prototype within under an hour, and then spend more time on some visualizations to show what you can do with the data.
