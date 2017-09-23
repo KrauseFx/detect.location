@@ -41,7 +41,7 @@ Additionally the native image picker should be enforced by Apple, and apps that 
 
 You might think it takes some work to write code that does all of the above. I built the initial prototype within under an hour, and then spend more time on some visualizations to show what you can do with the data.
 
-Check out [DetectLocations/LocationPoint.m] for the complete implementation of accessing all photos, accessing all locations is literally
+Check out [DetectLocations/LocationPoint.m](https://github.com/KrauseFx/detect.location/blob/master/DetectLocations/LocationPoint.m) for the complete implementation of accessing all photos, accessing all locations is literally
 ```objective-c
 PHFetchResult *photos = [PHAsset fetchAssetsWithMediaType:PHAssetMediaTypeImage options:nil];
     
