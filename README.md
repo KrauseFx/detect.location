@@ -22,7 +22,7 @@ Find the "fastest" photos | Understand the user | Full access to raw photos
 - Get a history of the cities, countries, and other places a user has visited, as long as they took a picture there
 - Find the user's place of work, by figuring out where they are from 9 to 5
 - Get a complete list of the user's cameras and photography devices (which iPhones, Android phones, cameras) and how long they used each device
-- Use facial recognization to find out who the user hangs out with and who their partner is. Is the user single? What is their sexuality?
+- Use facial recognization to find out who the user hangs out with and who their partner is. Is the user single?
 - Understand the user's background:
   - Did the user attend college? If so, which one?
   - Did the user recently move from the suburbs to the city?
