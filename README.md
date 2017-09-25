@@ -4,7 +4,10 @@
 
 Does your iOS app have access to the user's image library? Do you want to know your user's movements over the last several years, including what cities they've visited, which iPhones they've owned and how they travel? Do you want all of that data in less a second? Then this project is for you!
 
-> Disclaimer: `detect.location` is not intended to be used in production. It's a proof of concept to highlight a privacy loophole that can be abused by iOS apps. Apps shouldn't use this. I want Apple to close this loophole and give its users better privacy controls for image metadata.
+
+## Disclaimer
+
+`detect.location` is not intended to be used in production. It's a proof of concept to highlight a privacy loophole that can be abused by iOS apps. Apps shouldn't use this. The goal is to close this loophole and give its users better privacy controls for image metadata.
 
 Permission Dialog | Map of locations | Rendering of Route
 ----|-----|-----
@@ -43,7 +46,7 @@ Find the "fastest" photos | Understand the user | Full access to raw photos
 There should be separate permissions for 
 
 - `Saving a photo` (e.g. a 3rd party camera app wants to save a photo you just took)
-- `Selecting a photo` (e.g. you want to upload an existing picture to Instagram)
+- `Selecting a photo` (e.g. you want to upload an existing picture to a social network)
 - `Granting full access to the photo library` (e.g. Dropbox or Google Photos to backup your complete library)
 
 Additionally, use of the native image picker should be enforced by Apple, and apps that use a custom one will be rejected.
