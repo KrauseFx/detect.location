@@ -76,4 +76,4 @@ for (PHAsset *asset in photos) {
 
 If an image doesn't load when you tap on a marker / table cell, this means it's a video. A video player wasn't implemented as part of the demo.
 
-I submitted the app to the App Store, and it actually got approved on the first try, you can [download the app on the App Store](https://itunes.apple.com/us/app/detectlocations/id1288532777?ls=1&mt=8).
+I submitted the app to the App Store, and it actually got approved on the first try, you can [download the app on the App Store](https://itunes.apple.com/us/app/detectlocations/id1288532777?ls=1&mt=8). I used Xcode 8 instead of Xcode 9 for this submission, so the map clustering isn't active in this version unfortunately, I've submitted a follow-up release that includes clustering as well.
