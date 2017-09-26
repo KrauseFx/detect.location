@@ -1,9 +1,10 @@
 # `detect.location`
 
-<img src="screenshots/DetectLocations.png" align="right" width=80 />
+<a href="https://itunes.apple.com/us/app/detectlocations/id1288532777?ls=1&mt=8"><img src="screenshots/DetectLocations.png" align="right" width=80 /></a>
 
 Does your iOS app have access to the user's image library? Do you want to know your user's movements over the last several years, including what cities they've visited, which iPhones they've owned and how they travel? Do you want all of that data in less a second? Then this project is for you!
 
+#### [Download DetectLocations app](https://itunes.apple.com/us/app/detectlocations/id1288532777?ls=1&mt=8)
 
 ## Disclaimer
 
@@ -16,6 +17,8 @@ Permission Dialog | Map of locations | Rendering of Route
 Find the "fastest" photos | Understand the user | Full access to raw photos
 ----|-----|-----
 ![screenshots/screenshot3.jpg](screenshots/screenshot3.jpg) | ![screenshots/screenshot4.jpg](screenshots/screenshot4.jpg) | ![screenshots/screenshot5.jpg](screenshots/screenshot5.jpg)
+
+To see all the above with **your** data, download the [DetectLocations app](https://itunes.apple.com/us/app/detectlocations/id1288532777?ls=1&mt=8) from the App Store.
 
 ## What can you do with `detect.location`?
 
@@ -72,3 +75,5 @@ for (PHAsset *asset in photos) {
 ## About the demo
 
 If an image doesn't load when you tap on a marker / table cell, this means it's a video. A video player wasn't implemented as part of the demo.
+
+I submitted the app to the App Store, and it actually got approved on the first try, you can [download the app on the App Store](https://itunes.apple.com/us/app/detectlocations/id1288532777?ls=1&mt=8).
