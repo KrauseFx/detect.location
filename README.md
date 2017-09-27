@@ -1,5 +1,8 @@
 # `detect.location`
 
+[![Twitter: @KrauseFx](https://img.shields.io/badge/contact-@KrauseFx-blue.svg?style=flat)](https://twitter.com/KrauseFx)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/KrauseFx/whats-the-user-doing/blob/master/LICENSE)
+
 <a href="https://itunes.apple.com/us/app/detectlocations/id1288532777?ls=1&mt=8"><img src="screenshots/DetectLocations.png" align="right" width=80 /></a>
 
 Does your iOS app have access to the user's image library? Do you want to know your user's movements over the last several years, including what cities they've visited, which iPhones they've owned and how they travel? Do you want all of that data in less a second? Then this project is for you!
