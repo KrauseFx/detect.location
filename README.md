@@ -76,6 +76,8 @@ for (PHAsset *asset in photos) {
 
 If an image doesn't load when you tap on a marker / table cell, this means it's a video. A video player wasn't implemented as part of the demo.
 
+The app will not edit your photo library in any way - iOS photos permission is smart and only grants immutable access, meaning in theory, the app could add new pictures, but not edit/delete existing ones.
+
 I submitted the app to the App Store, and it actually got approved on the first try, you can [download the app on the App Store](https://itunes.apple.com/us/app/detectlocations/id1288532777?ls=1&mt=8). I used Xcode 8 instead of Xcode 9 for this submission, so the map clustering isn't active in this version unfortunately, I've submitted a follow-up release that includes clustering as well.
 
 ## License
