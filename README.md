@@ -48,10 +48,10 @@ To see all the above with **your** data, download the [DetectLocations app](http
 
 There should be separate permissions for 
 
-- `Saving a photo` (e.g. a 3rd party camera app wants to save a photo you just took)
 - `Selecting a photo` (e.g. you want to upload an existing picture to a social network)
 - `Granting full access to the photo library` (e.g. Dropbox or Google Photos to backup your complete library)
 
+For `saving a photo` (e.g. a 3rd party camera app wants to save a photo you just took), a [separate permission](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW73) was introduced in iOS 11 to get write-only access to the photo library.
 Additionally, use of the native image picker should be enforced by Apple, and apps that use a custom one will be rejected.
 
 I've reported this as a radar, which you can dupe: [rdar://34610699](https://openradar.appspot.com/34610699) 👍
