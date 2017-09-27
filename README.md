@@ -55,7 +55,10 @@ There should be separate permissions for
 - `Granting full access to the photo library` (e.g. Dropbox or Google Photos to backup your complete library)
 
 For `saving a photo` (e.g. a 3rd party camera app wants to save a photo you just took), a [separate permission](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW73) was introduced in iOS 11 to get write-only access to the photo library.
+
 Additionally, use of the native image picker should be enforced by Apple, and apps that use a custom one will be rejected.
+
+An alternative approach would be to have an extra permission layer to access the picture's metadata.
 
 I've reported this as a radar, which you can dupe: [rdar://34610699](https://openradar.appspot.com/34610699) 👍
 
