@@ -20,6 +20,7 @@
 @property (strong, nonatomic) NSMutableArray *markers;
 @property (strong, nonatomic) NSMutableArray *movingMarkers;
 @property (strong, nonatomic) NSArray *tableViewItems;
+@property (nonatomic, assign) BOOL doesUserUseMetric;
 
 @end
 
@@ -98,6 +99,9 @@
         }
     }];
     
+    NSLocale *locale = [NSLocale currentLocale];
+    self.doesUserUseMetric = [[locale objectForKey:NSLocaleUsesMetricSystem] boolValue];
+    
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] init];
     [tap addTarget:self action:@selector(didTapImageView:)];
     [self.imageView addGestureRecognizer:tap];
@@ -125,7 +129,13 @@
             MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
             annotation.coordinate = location.location.coordinate;
             annotation.accessibilityHint = [NSString stringWithFormat:@"%li", (long)i];
-            NSString *title = [NSString stringWithFormat:@"%@ - Speed %i km/h", [formatter stringFromDate:location.date], (int)([location.location speed] * 3.6)];
+            NSString *title = NULL;
+            if (self.doesUserUseMetric){
+                title = [NSString stringWithFormat:@"%@ - Speed %i km/h", [formatter stringFromDate:location.date], (int)([location.location speed] * 3.6)];
+            } else {
+                title = [NSString stringWithFormat:@"%@ - Speed %i mph", [formatter stringFromDate:location.date], (int)([location.location speed] * 2.23694)];
+            }
+            
             [annotation setTitle:title];
             
             [self.markers addObject:annotation];
@@ -195,7 +205,11 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Yolo" forIndexPath:indexPath];
     LocationPoint *point = self.tableViewItems[indexPath.row];
     [cell.textLabel setText:[NSString stringWithFormat:@"<%.4f,%.4f>", point.location.coordinate.latitude, point.location.coordinate.longitude]];
-    [cell.detailTextLabel setText:[NSString stringWithFormat:@"%.2f km/h", point.location.speed * 3.6]];
+    if (self.doesUserUseMetric){
+        [cell.detailTextLabel setText:[NSString stringWithFormat:@"%.2f km/h", point.location.speed * 3.6]];
+    } else {
+        [cell.detailTextLabel setText:[NSString stringWithFormat:@"%.2f mph", point.location.speed * 2.23694]];
+    }
     return cell;
 }
 
