@@ -10,5 +10,6 @@ lane :appstore do
     appicon_path: "./DetectLocations/Assets.xcassets/"
   )
   codesigning
+  gym(scheme: "DetectLocations")
   deliver(force: true)
 end
