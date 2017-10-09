@@ -9,7 +9,7 @@
 # `detect.location`
 
 [![Twitter: @KrauseFx](https://img.shields.io/badge/contact-@KrauseFx-blue.svg?style=flat)](https://twitter.com/KrauseFx)
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/KrauseFx/whats-the-user-doing/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/KrauseFx/detect.location/blob/master/LICENSE)
 
 <a href="https://itunes.apple.com/us/app/detectlocations/id1288532777?ls=1&mt=8"><img src="screenshots/DetectLocations.png" align="right" width=80 /></a>
 
