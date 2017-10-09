@@ -1,3 +1,11 @@
+<p align="center">
+  <a href="https://github.com/krausefx/whats-the-user-doing">whats.the.user.doing</a> &bull;
+  <b>detect.location</b> &bull;
+  <a href="https://github.com/KrauseFx/watch.user">watch.user</a>
+</p>
+
+-------
+
 # `detect.location`
 
 [![Twitter: @KrauseFx](https://img.shields.io/badge/contact-@KrauseFx-blue.svg?style=flat)](https://twitter.com/KrauseFx)
