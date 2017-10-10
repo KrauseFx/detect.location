@@ -1,7 +1,8 @@
 <p align="center">
   <a href="https://github.com/krausefx/whats-the-user-doing">whats.the.user.doing</a> &bull;
   <b>detect.location</b> &bull;
-  <a href="https://github.com/KrauseFx/watch.user">watch.user</a>
+  <a href="https://github.com/KrauseFx/watch.user">watch.user</a> &bull;
+  <a href="https://github.com/KrauseFx/steal.password">steal.password</a>
 </p>
 
 -------
