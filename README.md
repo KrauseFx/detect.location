@@ -95,6 +95,10 @@ The app will not edit your photo library in any way - iOS photos permission is s
 
 I submitted the app to the App Store, and it actually got approved on the first try, you can [download the app on the App Store](https://itunes.apple.com/us/app/detectlocations/id1288532777?ls=1&mt=8). I used Xcode 8 instead of Xcode 9 for this submission, so the map clustering isn't active in this version unfortunately, I've submitted a follow-up release that includes clustering as well.
 
+## Update December 2017
+
+[Erkan Yildiz pointed out](https://github.com/KrauseFx/detect.location/issues/6) that with iOS 11 the `UIImagePickerController` doesn't require image library access any more and runs in a separate process, meaning Apple could force apps to use the built-in image picker for when it's appropriate.
+
 ## License
 
 This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file.
