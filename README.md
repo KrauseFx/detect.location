@@ -7,6 +7,8 @@
 
 -------
 
+**Update 2020-06-22** [Apple has fixed this issue with iOS 14](https://twitter.com/KrauseFx/status/1275174778391924736)
+
 # `detect.location`
 
 [![Twitter: @KrauseFx](https://img.shields.io/badge/contact-@KrauseFx-blue.svg?style=flat)](https://twitter.com/KrauseFx)
